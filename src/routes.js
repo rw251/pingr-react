@@ -1,3 +1,5 @@
+/* jshint esversion:6 */
+
 import React from 'react';
 import { Router, Route, IndexRoute } from 'react-router';
 
@@ -12,7 +14,7 @@ import Contact from './components/Contact';
 const Routes = (props) => (
   <Router {...props}>
     <Route path="/" component={App}>
-      <IndexRoute component={Home}/>
+      <IndexRoute component={Home} />
       <Route path="indicator" component={Indicator} />
       <Route path="patient" component={Patient} />
       <Route path="action" component={ActionPage} />

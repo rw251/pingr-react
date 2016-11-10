@@ -1,24 +1,99 @@
-.App {
-  text-align: center;
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.nav-tabs-tall>li>a {
+    height: 75px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
 }
 
-.App-intro {
-  font-size: large;
+a {
+    color: #337ab7;
+    text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+}
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+@media (max-width: 1450px)
+.nav-tabs-tall {
+    width: 770px;
+}
+
+@media (max-width: 1550px)
+.nav-tabs-tall {
+    width: 870px;
+}
+@media (max-width: 1600px)
+.nav-tabs-tall {
+    width: 970px;
+}
+.nav-tabs-tall {
+    border-bottom-width: 0;
+    width: 1070px;
+}
+
+
+
+:hov
+
+
+.cls
+
+element.style {
+}
+.navbar-default {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+@media (min-width: 768px)
+.navbar-fixed-top, .navbar-fixed-bottom {
+    border-radius: 0;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+@media (min-width: 768px)
+.navbar {
+    border-radius: 4px;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
 }
